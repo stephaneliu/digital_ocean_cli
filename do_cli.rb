@@ -291,7 +291,7 @@ end
 digital_ocean = DigitalOcean.new
 
 available_actions  = %w(create destroy)
-available_lists = %w(regions sizes ssh_keys)
+available_lists = %w(images regions sizes ssh_keys)
 
 
 # TODO - REPL command interface

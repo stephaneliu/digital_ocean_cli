@@ -1,8 +1,4 @@
-digital_ocean_cli
-=================
-
-
-gital Ocean CLI
+Digital Ocean CLI
 =================
 
 ## Installation

@@ -2,9 +2,10 @@ Digital Ocean CLI
 =================
 
 ## Installation
-Clone this repo and symlink do_cli.rb into your /usr/bin or ~/bin directory
+Clone this repo and symlink do_cli.rb into your /usr/bin or ~/bin directory. You will need to create an Digital Ocean API key for your account at https://cloud.digitalocean.com/settings/applications.
 
 ```
+export DO_KEY=[your API key]
 gem install barge
 ln -s digital_ocean_cli/do_cli.rb ~/bin/DO
 ```

@@ -175,17 +175,9 @@ class DigitalOcean
     end
   end
 
+  # TODO - Implement 'ask' format
   def snapshot(droplet_id, snapshot_name)
     client.droplet.snapshot(droplet_id, name: snapshot_name)
-  end
-
-  def test
-    puts "Are you sure? (YES / [NO]) "
-    if $stdin.gets.chomp! == "YES"
-      puts "full steam ahead"
-    else
-      puts "Phew, avoided that one"
-    end
   end
 
   private

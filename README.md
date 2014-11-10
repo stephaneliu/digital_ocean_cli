@@ -5,6 +5,7 @@ Digital Ocean CLI
 Clone this repo and symlink do_cli.rb into your /usr/bin or ~/bin directory
 
 ```
+gem install barge
 ln -s digital_ocean_cli/do_cli.rb ~/bin/DO
 ```
 

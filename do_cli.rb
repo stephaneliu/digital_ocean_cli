@@ -160,7 +160,7 @@ class DigitalOcean
     droplet_id = ""
     ask "What is the ID of the droplet? (droplet_id / list)" do |answer|
       if answer.downcase == "list"
-        puts droplets
+        list_droplets
       else
         droplet_id  = answer
       end
